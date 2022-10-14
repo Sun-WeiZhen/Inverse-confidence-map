@@ -1,7 +1,7 @@
 # Inverse-confidence-map
 ![d5b1ec62ea41fd5fd56486a09c13bbd](https://user-images.githubusercontent.com/37693363/195789386-a887bcf7-feb3-4f98-8131-c180f3e93fb6.png)
 
-In the above figure, the first line is the ultrasound image sequence collected by the ultrasound doctor with different contact forces. The second line is the image simulated by the Inverse confidence map algorithm. The input of the Inverse confidence map algorithm is a clear ultrasound image.
+In the above figure, the second line is the ultrasound image sequence collected by the ultrasound doctor with different contact forces. The first line is the image simulated by the Inverse confidence map algorithm. The input of the Inverse confidence map algorithm is a clear ultrasound image.
 
 The contact force between ultrasonic probe and patient directly affects the quality of ultrasonic image. When the contact force is small, the image quality is poor. The purpose of this project is to establish the mapping relationship between image quality and contact force.
 
@@ -13,7 +13,7 @@ Where, I0 is the pixel of the original ultrasonic image, I is the image pixel re
 
 This is a very simple procedure. We only need to adjust the ultrasonic attenuation coefficient to get the transformed image. The value of a is between (0.001 and 0.008).
 
-上图中第一行是超声科医生使用不同接触力采集的超声图像序列，第二行是使用Inverse-confidence-map算法模拟处的图像，Inverse-confidence-map算法的输入是一张清晰的超声图像。
+上图中第二行是超声科医生使用不同接触力采集的超声图像序列，第一行是使用Inverse-confidence-map算法模拟处的图像，Inverse-confidence-map算法的输入是一张清晰的超声图像。
 
 IM_0018中的图像是超声科医生根据不同接触力采集超声图像时生成的图像序列
 

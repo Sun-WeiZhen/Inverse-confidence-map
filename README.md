@@ -1,4 +1,4 @@
-# Inverse-confidence-mapping
+# Inverse-confidence-map
 ![d5b1ec62ea41fd5fd56486a09c13bbd](https://user-images.githubusercontent.com/37693363/195789386-a887bcf7-feb3-4f98-8131-c180f3e93fb6.png)
 
 The contact force between ultrasonic probe and patient directly affects the quality of ultrasonic image. When the contact force is small, the image quality is poor. The purpose of this project is to establish the mapping relationship between image quality and contact force.
